@@ -6,18 +6,20 @@
 console.log(animal);
 var animal = "monkey";
 // Output or Error Message
+//undefined;
 ```
+
 
 ```js
 console.log(animal);
 let animal = "monkey";
-// Output or Error Message
+// reference error;
 ```
 
 ```js
 console.log(animal);
 const animal = "monkey";
-// Output or Error Message
+// reference error
 ```
 
 ```js
@@ -25,7 +27,7 @@ function sayHello(msg) {
   alert(msg);
 }
 sayHello("Hey Everyone");
-// Output or Error Message
+// It will alert "Hey Everyone"
 ```
 
 ```js
@@ -33,7 +35,7 @@ sayHello("Hey Everyone");
 function sayHello(msg) {
   alert(msg);
 }
-// Output or Error Message
+// It will alert "Hey Everyone";
 ```
 
 ```js
@@ -41,7 +43,7 @@ sayHello("Hey Everyone");
 var sayHello = msg => {
   alert(msg);
 };
-// Output or Error Message
+//  error as SayHello is  not defined
 ```
 
 ```js
@@ -49,4 +51,5 @@ sayHello("Hey Everyone");
 let sayHello = msg => {
   alert(msg);
 };
+// error as not defined
 ```
