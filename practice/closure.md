@@ -38,8 +38,12 @@ const final = name("Smith"); // final should be "Will Smith"
 function isInBetween(a, b) {
   // your code goes here
   return function(num){
-    return (a,b) ?  a >= num && num >= b : a <= num && b >= num;
+    if(a<= num && b >= num){
+      return true
+    }
+    return false;
   }
+  
 }
 
 const isChild = isInBetween(10, 100);
@@ -88,22 +92,21 @@ cricket(); // Your score of Cricket is 2
 
 ```js
 function getCard(suit) {
-  // your code goes here
-    let options = ["club", "spade", "heart", "dimond"]
-  if(options.includes(suit.toLowerCase())) {
-    let cards = [2,3,4,5,6,7,8,9,10,"J", "Q", "K", "A"];
+  let cardOptions = ["Club","Spade","Heart","Diamond"];
+  if(cardOptions.includes(suit)){
+    let card = [2,3,4,5,6,7,8,9,10,"J", "Q", "K", "A"];
     return function(){
-      let randomCard = Math.floor(Math.random() * cards.length);
-      return `Card is: ${cards[random]} ${suit}`;
+      let randomCard = Math.floor(Math.random() * card.length);
+      return `Card is: ${card[randomCard]} ${suit}`
     }
   }
 }
 
 // Output
-const randomClub = addGame("Club");
+const randomClub = getCard("Club");
 randomClub(); // Card is: 6 Club
 randomClub(); // Card is: A Club
-const randomSpade = addGame("Spade");
+const randomSpade = getCard("Spade");
 randomSpade(); // Card is: 6 Spade
 randomSpade(); // Card is: A Spade
 ```

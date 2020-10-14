@@ -13,13 +13,13 @@ var animal = "monkey";
 ```js
 console.log(animal);
 let animal = "monkey";
-// reference error;
+// cannot access animal before initialization;
 ```
 
 ```js
 console.log(animal);
 const animal = "monkey";
-// reference error
+// cannot access animal before initialization;
 ```
 
 ```js
@@ -43,7 +43,7 @@ sayHello("Hey Everyone");
 var sayHello = msg => {
   alert(msg);
 };
-//  error as SayHello is  not defined
+//  error as SayHello function is  not a function;
 ```
 
 ```js
@@ -51,5 +51,5 @@ sayHello("Hey Everyone");
 let sayHello = msg => {
   alert(msg);
 };
-// error as not defined
+// error as sayHello is not a function;
 ```
