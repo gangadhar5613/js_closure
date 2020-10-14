@@ -18,6 +18,7 @@ function sayHello(name) {
 let message = sayHello(username);
 var nextMessage = sayHello('Test');
 ```
+- The solution for above code is in this ![image](images/function-1.png)
 
 2.
 
@@ -34,7 +35,7 @@ function sayHello(name) {
 let message = sayHello(username);
 var nextMessage = sayHello('Test');
 ```
-
+- The solution for above code is in this ![image](images/function-2.png)
 3.
 
 ```js
@@ -50,7 +51,7 @@ let sayHello = function (name) {
 let message = sayHello(username);
 var nextMessage = sayHello('Test');
 ```
-
+- The solution for the above code is in this ![image](images/function-3.png)
 4.
 
 ```js
@@ -66,7 +67,7 @@ let sayHello = function (name) {
 
 var nextMessage = sayHello('Test');
 ```
-
+- The solution for the above code is in this ![image](images/function-4.png)
 5.
 
 ```js
@@ -75,7 +76,7 @@ console.log(age);
 var name = 'Lydia';
 let age = 21;
 ```
-
+- The solution for the above code is in this ![image](images/function-5.png)
 6.
 
 ```js
@@ -88,7 +89,7 @@ function sayHi(name) {
 
 sayHi();
 ```
-
+- The solution for the above code is in this ![image](images/function-6.png)
 6.
 
 ```js
@@ -100,7 +101,7 @@ function sayHi(name) {
   let age = 21;
 }
 ```
-
+- The solution for the above code is in this ![image](images/function-6.png)
 7.
 
 ```js
@@ -112,7 +113,7 @@ let sayHi = function sayHi(name) {
   let age = 21;
 };
 ```
-
+- The solution for the above code is in this ![image](images/function-7.png)
 8.
 
 ```js
@@ -121,7 +122,7 @@ console.log(sum);
 var sum = num1 + num2;
 let num2 = 30;
 ```
-
+- The solution for the above code is in this ![image](images/function-8.png)
 9.
 
 ```js
@@ -139,7 +140,7 @@ let num2 = 200;
 
 let sum = add(num1, num2, 4, 5, 6);
 ```
-
+- The solution for the above code is in this ![image](images/function-9.png)
 10.
 
 ```js
@@ -154,7 +155,7 @@ let add = (a, b) => {
   return a + b;
 };
 ```
-
+- The solution for the above code is in this ![image](images/function-10.png)
 11.
 
 ```js
@@ -169,3 +170,4 @@ function add(a, b) {
   return a + b;
 }
 ```
+- The solution for the above code is in this ![image](images/function-11.png)
