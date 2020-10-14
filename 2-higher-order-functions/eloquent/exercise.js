@@ -8,9 +8,9 @@ console.log(arrays.reduce((a,b)=>{return a.concat(b)}));
 
 // Challenge 2. Your own loop
 function loop( start, test, update, body ){
-  for(let value = start; test(value); value = update(value)){
-    body(value);
-  } 
+  for (let i = start; test(i); update(i)) {
+    body(i)
+  }
 }
 // Your code here.
 
